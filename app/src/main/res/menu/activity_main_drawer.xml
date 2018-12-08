@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/StoreFragment"
+            android:icon="@drawable/ic_book_store"
+            android:title="Store" />
+        <item
+            android:id="@+id/MyEbooksFragment"
+            android:icon="@drawable/ic_my_books"
+            android:title="My E-Books" />
+        <item
+            android:id="@+id/UploadFragment"
+            android:icon="@drawable/ic_my_profile"
+            android:title="Uploading Stuff" />
+        <item
+            android:id="@+id/DownloadFragment"
+            android:icon="@drawable/ic_coupons"
+            android:title="Download/View Stuff from Server" />
+        <item
+            android:id="@+id/LoginOrSignUpFragment"
+            android:icon="@drawable/ic_my_profile"
+            android:title="Account/Profile" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
